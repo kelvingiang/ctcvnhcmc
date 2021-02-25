@@ -1,0 +1,63 @@
+/* 
+    Document   : supermenu_custom
+    Created on : 2017/1/11, 下午 03:43:00
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.sf-menu {
+    float: right !important;
+    margin-right: 0px;
+}
+.sf-menu > li:last-child{
+    border-radius: 0 0  8px 0;
+}
+.sf-menu > li:first-child{
+    border-radius:  0 0 0 8px;
+    border-left: 0px #666 solid
+}
+.sf-menu > li {
+    border-left: 1px #666 solid;
+    border-top: 6px #666 solid;
+}
+
+.sf-menu > li:hover {
+    background-color: #D9DDE0 !important;
+    border-top: 7px #999 solid;
+}
+
+/*PHAN MENU =======================================================*/
+.sf-menu li{
+    background-color: #fff !important;
+
+}
+.sf-menu  li:hover {
+    background-color: #D9DDE0 !important;
+}
+
+
+
+
+
+.sf-menu a {
+    color: #fc6c02 !important;
+    font-weight: bold;
+    border-left: 0px solid #000 !important;
+    font-size: 15px;
+}
+
+.sf-arrows .sf-with-ul::after {
+    border-color : rgba(252, 108, 002, 1) transparent transparent !important;
+}
+
+.sf-with-ul{
+    letter-spacing: 2px;
+}
+
+
+

@@ -1,0 +1,66 @@
+Nova Lite WordPress Theme Documentation
+
+---------------------
+
+- Installation
+
+Decompress the “nova-lite.zip” file, into the package, under “wp-content /themes” and then activate the theme from Appearance => Themes.
+As an alternative, go to Appearance => Themes => Add New => Upload Theme and choose “nova-lite.zip” file.
+
+- Option panel
+
+When the theme is activated, you can manage Nova Lite, from “Customize” section.
+
+- General Tab
+
+-- Load system.
+If you've some problems with the theme (for example a blank page), you can change the load system.
+
+-- Color Scheme.
+It is possible to choose up to 8 different styles that will replace any previously saved settings.
+
+-- Styles.
+You can add a custom css code. It is recommended that this feature be used only if absolutely necessary and if you know what will be modified.
+
+-- Layouts.
+You can decide the layout of home, search and category section
+
+-- Header settings.
+You can replace the site name with an image as logo.
+
+-- Footer settings.
+From here, it is possible insert a text at the end of the site and add the links for the social networks
+
+--- Copyright text.
+Text displayed at the end of the site.
+
+--- Social networks.
+Insert the link; the icon of the relative social network will be displayed
+
+- Typography Tab
+
+-- Logo, Menu, Content and Headlines
+You can insert the font size for each section, logo (if it’s not an image), menu, content and headlines.
+
+- Background Image Tab
+It’s possible to set a full background image, from “Full image background” option.
+
+- Homepage
+Wordpress displays the last articles in the homepage. To use a static page that was previously created, in which the slides and other elements are present, go to “Settings” -> “Reading” and check off the “a static page” item by choosing the one previously created by the list
+
+- Menu
+It is possible to create and manage a custom menu with a drag and drop system. Go to http://codex.wordpress.org/Appearance_Menus_SubPanel. Once the main menu is created, select it in “Main menu”.
+
+- Theme Translation
+
+We suggest Poedit, to translate Nova Lite. It’s available for free on poedit.net.
+
+Open Poedit, go to File > New from POT file and choose suevafree.pot , under suevafree/languages/ and choose your native language.
+
+When you’ve finished, upload bot files with your language code (for example it_IT.po and it_IT.mo ), under the language folder of Nova Lite using a FTP client.
+
+- Premium Version
+
+If you need more features, you can found the premium version from this page: 
+
+https://www.themeinprogress.com/nova-free-responsive-portfolio-blogging-wordpress-theme/

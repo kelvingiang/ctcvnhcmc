@@ -1,0 +1,196 @@
+# Translation of Plugins - WP-PageNavi - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - WP-PageNavi - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-14 07:24:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - WP-PageNavi - Stable (latest release)\n"
+
+#: core.php:128 core.php:147 core.php:159
+msgid "Page %d"
+msgstr "頁數 %d"
+
+#. Author URI of the plugin/theme
+msgid "http://lesterchan.net"
+msgstr "http://lesterchan.net"
+
+#. Author of the plugin/theme
+msgid "Lester 'GaMerZ' Chan"
+msgstr "Lester 'GaMerZ' Chan"
+
+#. Description of the plugin/theme
+msgid "Adds a more advanced paging navigation to your WordPress blog"
+msgstr "正體中文教學：<a href=\"http://blog.sitcup.net/2016/08/780\" target=\"_blank\">WP-頁面導覽 2.91 教學</a>"
+
+#. Plugin URI of the plugin/theme
+msgid "http://lesterchan.net/portfolio/programming/php/"
+msgstr "http://lesterchan.net/portfolio/programming/php/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP-PageNavi"
+msgstr "WP-頁面導覽"
+
+#: wp-pagenavi.php:27 wp-pagenavi.php:28
+msgid "..."
+msgstr "..."
+
+#: wp-pagenavi.php:26
+msgid "&raquo;"
+msgstr "下一頁 &raquo;"
+
+#: wp-pagenavi.php:25
+msgid "&laquo;"
+msgstr "&laquo; 上一頁"
+
+#: wp-pagenavi.php:24
+msgid "Last &raquo;"
+msgstr "最後一頁 &raquo;"
+
+#: wp-pagenavi.php:23
+msgid "&laquo; First"
+msgstr "&laquo; 第一頁"
+
+#: wp-pagenavi.php:20
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "第 %CURRENT_PAGE% 頁 / 共 %TOTAL_PAGES% 頁"
+
+#: scb/AdminPage.php:519
+msgid "Settings"
+msgstr "設定"
+
+#: scb/AdminPage.php:261
+msgid "Settings <strong>saved</strong>."
+msgstr "選項<strong>保存</strong>."
+
+#: admin.php:158
+msgid "Page Navigation Options"
+msgstr "頁面導覽選項"
+
+#: admin.php:153
+msgid "For example, if mutiple is 5, it will show: 5, 10, 15, 20, 25"
+msgstr "例如倍增值為 5，將會顯示為：5, 10, 15, 20, 25"
+
+#: admin.php:148
+msgid "Show Larger Page Numbers In Multiples Of"
+msgstr "顯示較大頁碼的倍增值為"
+
+#: admin.php:144
+msgid "Enter 0 to disable."
+msgstr "輸入 0 停用此功能。"
+
+#: admin.php:143
+msgid "For example, WP-PageNavi will display: Pages 1, 2, 3, 4, 5, 10, 20, 30, 40, 50."
+msgstr "例如 WP-頁面導覽 會顯示為：頁面 1, 2, 3, 4, 5, 10, 20, 30, 40, 50。"
+
+#: admin.php:142
+msgid "Larger page numbers are in addition to the normal page numbers. They are useful when there are many pages of posts."
+msgstr "較大頁碼附加在一般頁碼，當你有許多頁面的文章時是很有用的。"
+
+#: admin.php:137
+msgid "Number Of Larger Page Numbers To Show"
+msgstr "顯示較大頁碼"
+
+#: admin.php:130
+msgid "Number Of Pages To Show"
+msgstr "顯示多少頁數"
+
+#: admin.php:126
+msgid "Show navigation even if there's only one page."
+msgstr "即使只有一個頁面也顯示導覽。"
+
+#: admin.php:122
+msgid "Always Show Page Navigation"
+msgstr "始終顯示頁面導覽"
+
+#: admin.php:117
+msgid "Drop-down List"
+msgstr "下拉式列表"
+
+#: admin.php:117
+msgid "Normal"
+msgstr "一般"
+
+#: admin.php:114
+msgid "Page Navigation Style"
+msgstr "頁面導覽樣式"
+
+#: admin.php:110 admin.php:125
+msgid "No"
+msgstr "否"
+
+#: admin.php:110 admin.php:125
+msgid "Yes"
+msgstr "是"
+
+#: admin.php:107
+msgid "Use pagenavi-css.css"
+msgstr "使用 pagenavi- css.css"
+
+#: admin.php:101
+msgid "Leaving a field blank will hide that part of the navigation."
+msgstr "保留空白的欄位將會被隱藏。"
+
+#: admin.php:100
+msgid "Page Navigation Text"
+msgstr "頁面導覽文字"
+
+#: admin.php:93
+msgid "Text For Next ..."
+msgstr "下一頁的文字 ... "
+
+#: admin.php:87
+msgid "Text For Previous ..."
+msgstr "前一頁的文字 ... "
+
+#: admin.php:81
+msgid "Text For Next Page"
+msgstr "下一頁文字"
+
+#: admin.php:75
+msgid "Text For Previous Page"
+msgstr "上一頁文字"
+
+#: admin.php:67
+msgid "Text For Last Page"
+msgstr "最後一頁文字"
+
+#: admin.php:59
+msgid "Text For First Page"
+msgstr "第一頁文字"
+
+#: admin.php:51
+msgid "Text For Page"
+msgstr "頁面文字"
+
+#: admin.php:47 admin.php:55
+msgid "The page number."
+msgstr "頁碼"
+
+#: admin.php:43
+msgid "Text For Current Page"
+msgstr "目前頁面文字"
+
+#: admin.php:39 admin.php:63 admin.php:71
+msgid "The total number of pages."
+msgstr "總共頁面數。"
+
+#: admin.php:38
+msgid "The current page number."
+msgstr "目前頁碼。"
+
+#: admin.php:33
+msgid "Text For Number Of Pages"
+msgstr "頁面編號文字"
+
+#: admin.php:10
+msgid "PageNavi"
+msgstr "頁面導覽"
+
+#: admin.php:9
+msgid "PageNavi Settings"
+msgstr "頁面導覽設定"

@@ -1,0 +1,15 @@
+/* 
+    Document   : my
+    Created on : 2016/12/27, 下午 03:05:21
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    background-color: #006505 !important;
+}

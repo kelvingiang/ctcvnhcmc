@@ -1,0 +1,147 @@
+#header,
+nav#mainmenu ul ul {
+    background-color: #262626;
+}
+nav#mainmenu ul ul {
+    border-top-color: #262626;
+}
+#subheader {
+    background-color: #212121;
+}
+#header,
+nav#mainmenu ul ul li a,
+#subheader {
+    border-color: #333333;
+}
+nav#mainmenu ul ul {
+    border-left-color: #333333;
+    border-right-color: #333333;
+    border-bottom-color: #333333;
+}
+.bottom_widget {
+    background-color: #262626;
+}
+.bottom_socials {
+    background-color: #212121;
+}
+#footer {
+    background-color: #262626;
+}
+#footer,
+.bottom_socials,
+.bottom_widget,
+.bottom_widget ul.contact-info li,
+.bottom_widget .widget-box li {
+    border-color: #333333;
+}
+::-moz-selection {
+    background-color: #eb984e;
+}
+::selection {
+    background-color: #eb984e;
+}
+article blockquote {
+    border-left-color: #eb984e;
+}
+#back-to-top a:hover,
+body.light #back-to-top a:hover,
+nav#widgetmenu li a:hover,
+nav#widgetmenu li:hover > a,
+nav#widgetmenu li.current-menu-item > a,
+nav#widgetmenu li.current-menu-ancestor > a,
+.pin-article .link a:hover,
+.pin-article .quote:hover,
+.skills .views.active,
+.skills .views:hover,
+.filter li:hover,
+.filter li.active,
+#searchform input[type=submit]:hover,
+.contact-form input[type=submit]:hover,
+.comment-form input[type=submit]:hover,
+.widget-category li a:hover,
+.tagcloud a:hover,
+.tabs li a:hover,
+.tabs li.ui-tabs-active a,
+.tabs li.ui-state-active a,
+.socials a:hover,
+.button:hover,
+.wp-pagenavi a:hover,
+.wp-pagenavi span.current,
+#wp-calendar #today,
+#wp-calendar #today a {
+    background-color: #e67e22;
+}
+#sidebar a:hover,
+.bottom a:hover,
+#footer a:hover,
+#logo a:hover,
+nav#mainmenu ul li a:hover,
+nav#mainmenu li:hover > a,
+nav#mainmenu ul li.current-menu-item > a,
+nav#mainmenu ul li.current_page_item > a,
+nav#mainmenu ul li.current-menu-parent > a,
+nav#mainmenu ul li.current_page_ancestor > a,
+nav#mainmenu ul li.current-menu-ancestor > a,
+.pin-article h3.title a:hover,
+.filterable-grid h4.title a:hover,
+.filterable-grid h4.title a:focus,
+.entry-info a:hover {
+    color: #e67e22;
+}
+#back-to-top a:hover,
+nav#widgetmenu li a:hover,
+nav#widgetmenu li:hover > a,
+nav#widgetmenu li.current-menu-item > a,
+nav#widgetmenu li.current-menu-ancestor > a,
+.widget-category li a:hover,
+.toggle_container h5.element:hover,
+.toggle_container h5.inactive,
+.toggle_container h5.inactive:hover,
+.toggle_container h5.element:hover:last-of-type,
+.toggle_container h5.inactive:last-of-type,
+.toggle_container h5.inactive:hover:last-of-type {
+    border-color: #e67e22;
+}
+#logo a,
+nav#mainmenu ul li a,
+nav#mainmenu ul ul li a {
+    color: #ffffff;
+}
+#subheader,
+#subheader p,
+#subheader h1,
+#subheader p a,
+#subheader h1 a {
+    color: #ffffff;
+}
+.bottom_widget a,
+.bottom_widget h3,
+.bottom_widget label,
+.bottom_widget caption,
+.bottom_widget p,
+.bottom_widget li,
+.bottom_widget address,
+.bottom_widget dd,
+.bottom_widget blockquote,
+.bottom_widget td,
+.bottom_widget th,
+.bottom_widget .textwidget {
+    color: #ffffff;
+}
+#footer a,
+#footer p,
+#footer li,
+#footer address,
+#footer dd,
+#footer blockquote,
+#footer td,
+#footer th,
+#footer .textwidget {
+    color: #ffffff;
+}
+.bottom_socials a {
+    color: #333333;
+}
+.bottom_socials a:hover {
+    color: #ffffff;
+}

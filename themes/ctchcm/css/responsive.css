@@ -1,0 +1,263 @@
+/* 
+    Document   : responsive
+    Created on : 2017/2/22, 下午 03:20:43
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+    transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -webkit-transform-origin:0 0;
+}
+
+
+@media all and (max-width:750px){
+    .border_box {
+        display: none;
+    }
+    #wrapper {
+        width: 91% !important;
+    }
+    .logo {
+        width:2.8em !important;
+        padding-top: 10px !important ;
+        margin-left: 5px !important;
+    }
+    .web-title h1{
+        font-size: 0.8em !important;
+        margin-top: 20px !important;
+
+    }
+
+    .main-menu, .middle-menu{
+        display: none !important;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    #menu-mobile{
+        margin-top: 10px;
+        border-top: 1px #fff solid;
+    }
+    #menu-mobile .menu-item{
+        height: 40px;
+        width: 50%;
+        float: left;
+        text-align: center;
+        font-weight: bold;
+        line-height: 40px;
+        border: 1px #fff solid;
+        display: block;
+    }
+
+    #menu-mobile .menu-item :hover{
+        background-color: orangered;
+    }
+    #menu-mobile .menu-item a{
+        color:  white !important; display: block;
+    }
+
+    .banquyen{
+        font-size: 0.6em
+    }
+
+    #footer #footer-content{
+        width: 100%;
+        margin:  0 auto;
+
+    }
+
+    #friendlink{
+        padding-left:  2px;
+    }
+    #friendlink ul li{
+        float: left;
+        width: 50%;
+        height: 35px;
+    }
+
+    .sidebar-left, .siler-event{
+        display: none;
+    }
+    .sidebar-right{
+        display: block;
+    }
+    .title-text{
+        font-size: 0.8em; 
+        text-align: center;
+    }
+    .title-text-before, .title-text-after {
+        display: none;
+    }
+    .list-grid li a{
+        height: 50px;
+        padding-top: 5px;
+        font-size: 0.8em;
+    }
+    .mem_item_title{
+        min-width: 66px;
+    }
+    #container{
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, 
+    .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, 
+    .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+    .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, 
+    .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, 
+    .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, 
+    .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, 
+    .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, 
+    .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+    .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+    .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+    .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .tieude-lon{
+        font-weight: bold;
+        /*text-align: center;*/
+        margin-top: 10px; color: #fd5505;font-size: 15px;
+        padding-top: 20px;
+    }
+
+    .hoitruong{
+        border-bottom: 1px saddlebrown solid;
+        overflow:  auto;
+    }
+
+    .hoitruong div:nth-child(2),  .hoitruong div:nth-child(3), .hoitruong div:nth-child(4){
+        border-left:  0px #999 solid;   
+
+    }
+    .hoivien div:nth-child(2),  .hoivien div:nth-child(3){
+        width: 20%;
+        border-left:  0px #999 solid;
+        border-bottom: 0px #999999 solid 
+    }
+
+    .hoivien div:nth-child(4), .hoivien div:nth-child(5){
+        width: 30%;
+        border-left:  0px #999 solid;
+        border-bottom: 0px #999999 solid 
+    }
+
+    .khoangcach{
+        height: 50px;
+        /*        padding-top: 300px;*/
+    }
+    .noidung{
+        position:  relative; bottom: 8px; left: 2px; right: 5px;
+    }
+} 
+
+@media all and (max-width:970px){
+    #wrapper{
+        width: 98% !important;
+    }
+    .logo{
+        width: 5em;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .web-title{
+        padding-top: 0px;
+    }
+    .main-menu, .sidebar-left, .siler-event{
+        display: none;
+    }
+
+    .sidebar-right{
+        display: block;
+    }
+
+
+    .middle-menu{
+        display: block;
+        height: 60px;
+        margin-top: -10px;
+    }
+    .box img{
+        width: 98%;
+    }
+    #footer   #footer-content{
+        width: 100%;
+    }
+
+    .hoitruong{
+        border-bottom: 1px saddlebrown solid;
+        overflow:  auto;
+    }
+
+    .hoitruong div:nth-child(2),  .hoitruong div:nth-child(3), .hoitruong div:nth-child(4){
+        border-left:  0px #999 solid;   
+
+    }
+    .hoivien div:nth-child(2),  .hoivien div:nth-child(3){
+        width: 20%;
+        border-left:  0px #999 solid;
+        border-bottom: 0px #999999 solid 
+    }
+
+    .hoivien div:nth-child(4), .hoivien div:nth-child(5){
+        width: 30%;
+        border-left:  0px #999 solid;
+        border-bottom: 0px #999999 solid 
+    }
+
+    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, 
+    .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, 
+    .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+    .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, 
+    .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, 
+    .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, 
+    .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, 
+    .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, 
+    .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+    .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+    .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+    .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media all and (max-width:1170px){
+    #wrapper{
+        width: 100%
+    }
+    .logo{
+        width: 5em;
+        margin-top: 10px;
+        padding-left: 3px;
+    }
+    .web-title h1{
+        font-size: 0.7em !important;
+        padding-top: 0px;
+    }
+    .main-menu a {
+        font-size: 13px;
+    }
+    #footer #footer-content{
+        width: 100%;
+        margin:  0 auto;
+
+    }
+    /*    .sidebar-left{
+            display: none
+        }
+        .sidebar-right{
+            display: block;
+        }*/
+}

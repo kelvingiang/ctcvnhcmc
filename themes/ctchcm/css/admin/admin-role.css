@@ -1,0 +1,15 @@
+/* 
+    Document   : admin_role
+    Created on : 2017/1/4, 下午 05:11:56
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#menu-tools, #menu-comments, #menu-pages, #menu-dashboard,#wp-admin-bar-new-page{
+    display: none;
+}
